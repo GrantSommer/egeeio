@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "ember build",
-    "start": "ember server",
+    "start": "harp server --port 9000",
     "test": "ember test"
   },
   "repository": {
@@ -21,5 +21,7 @@
   },
   "license": "CC-BY-NC-ND-4.0",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "harp": "^0.25.0"
+  }
 }
