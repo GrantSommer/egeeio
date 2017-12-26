@@ -1,49 +1,54 @@
 {
-  "name": "egeeio",
-  "version": "3.0.0",
-  "description": "Egee.io the website",
-  "private": true,
-  "author": "Egee <brian@egee.io>",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "ember test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/egee-irl/egeeio"
-  },
-  "engines": {
-    "node": ">= 6.9.0"
-  },
-  "license": "CC-BY-NC-ND-4.0",
-  "devDependencies": {
-    "broccoli-asset-rev": "2.5.0",
-    "ember-cli-app-version": "2.0.1",
-    "ember-cli-babel": "5.2.1",
-    "ember-cli-dependency-checker": "1.3.0",
-    "ember-cli-eslint": "3.0.0",
-    "ember-cli-htmlbars": "1.1.1",
-    "ember-cli-htmlbars-inline-precompile": "0.3.6",
-    "ember-cli-inject-live-reload": "1.4.1",
-    "ember-cli-qunit": "3.0.4",
-    "ember-cli-sri": "2.1.1",
-    "ember-cli-uglify": "1.2.0",
-    "ember-export-application-global": "1.1.1",
-    "eslint": "3.12.2",
-    "eslint-config-standard": "6.2.1",
-    "eslint-plugin-promise": "3.4.0",
-    "eslint-plugin-standard": "2.0.1",
-    "loader.js": "4.1.0"
-  },
-  "dependencies": {
-    "ember": "1.0.0-pre.2",
-    "ember-cli": "2.10.0",
-    "ember-load-initializers": "0.6.3",
-    "ember-qunit": "1.0.0",
-    "ember-resolver": "2.1.0"
-  }
+    "name": "casper",
+    "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+    "demo": "https://demo.ghost.io",
+    "version": "2.1.7",
+    "engines": {
+        "ghost": ">=1.2.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Ghost Foundation",
+        "email": "hello@ghost.org",
+        "url": "https://ghost.org"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Magazine"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TryGhost/Casper.git"
+    },
+    "bugs": "https://github.com/TryGhost/Casper/issues",
+    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+    "devDependencies": {
+        "autoprefixer": "6.3.6",
+        "cssnano": "3.7.1",
+        "gulp": "3.9.1",
+        "gulp-livereload": "3.8.1",
+        "gulp-nodemon": "2.1.0",
+        "gulp-postcss": "6.1.1",
+        "gulp-sourcemaps": "1.6.0",
+        "gulp-util": "3.0.7",
+        "gulp-watch": "4.3.8",
+        "gulp-zip": "4.0.0",
+        "postcss-color-function": "2.0.1",
+        "postcss-custom-properties": "5.0.1",
+        "postcss-easy-import": "1.0.1"
+    },
+    "config": {
+        "posts_per_page": 25
+    }
 }
