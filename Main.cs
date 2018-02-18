@@ -8,9 +8,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace EgeeioASP
+namespace EgeeioWebsite
 {
-    public class Program
+    public class Egeeio
     {
         public static void Main(string[] args)
         {

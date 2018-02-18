@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/egee/Source/EgeeioASP/EgeeioASP.csproj",
+      "projectUniqueName": "/home/egee/Source/egeeio/EgeeioASP.csproj",
       "projectName": "EgeeioASP",
-      "projectPath": "/home/egee/Source/EgeeioASP/EgeeioASP.csproj",
+      "projectPath": "/home/egee/Source/egeeio/EgeeioASP.csproj",
       "packagesPath": "/home/egee/.nuget/packages/",
-      "outputPath": "/home/egee/Source/EgeeioASP/obj/",
+      "outputPath": "/home/egee/Source/egeeio/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/opt/dotnet/sdk/NuGetFallbackFolder"
