@@ -1,0 +1,10 @@
+/home/egee/Source/EgeeioASP/bin/Debug/netcoreapp2.0/EgeeioASP.deps.json
+/home/egee/Source/EgeeioASP/bin/Debug/netcoreapp2.0/EgeeioASP.runtimeconfig.json
+/home/egee/Source/EgeeioASP/bin/Debug/netcoreapp2.0/EgeeioASP.runtimeconfig.dev.json
+/home/egee/Source/EgeeioASP/bin/Debug/netcoreapp2.0/EgeeioASP.dll
+/home/egee/Source/EgeeioASP/bin/Debug/netcoreapp2.0/EgeeioASP.pdb
+/home/egee/Source/EgeeioASP/obj/Debug/netcoreapp2.0/EgeeioASP.csproj.CoreCompileInputs.cache
+/home/egee/Source/EgeeioASP/obj/Debug/netcoreapp2.0/EgeeioASP.AssemblyInfoInputs.cache
+/home/egee/Source/EgeeioASP/obj/Debug/netcoreapp2.0/EgeeioASP.AssemblyInfo.cs
+/home/egee/Source/EgeeioASP/obj/Debug/netcoreapp2.0/EgeeioASP.dll
+/home/egee/Source/EgeeioASP/obj/Debug/netcoreapp2.0/EgeeioASP.pdb
