@@ -12541,9 +12541,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/egee/Source/egeeio/EgeeioASP.csproj",
-      "projectName": "EgeeioASP",
-      "projectPath": "/home/egee/Source/egeeio/EgeeioASP.csproj",
+      "projectUniqueName": "/home/egee/Source/egeeio/Egeeio.csproj",
+      "projectName": "Egeeio",
+      "projectPath": "/home/egee/Source/egeeio/Egeeio.csproj",
       "packagesPath": "/home/egee/.nuget/packages/",
       "outputPath": "/home/egee/Source/egeeio/obj/",
       "projectStyle": "PackageReference",
