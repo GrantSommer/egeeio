@@ -28,16 +28,23 @@ namespace EgeeioWebsite
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
-            {
                 app.UseDeveloperExceptionPage();
-            }
             else
             {
-                app.UseExceptionHandler("/Error");
+                app.UseStatusCodePages(async context =>
+                {
+                    if (context.HttpContext.Response.StatusCode == 404)
+                        {
+                            Console.WriteLine("farts");
+                        }
+                });
             }
 
-            app.UseStaticFiles();
+            // app.UseExceptionHandler("/Error");
+            
+            // app.UseStatusCodePages();
 
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
