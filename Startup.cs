@@ -34,16 +34,10 @@ namespace EgeeioWebsite
                 app.UseStatusCodePages(async context =>
                 {
                     if (context.HttpContext.Response.StatusCode == 404)
-                        {
-                            Console.WriteLine("farts");
-                        }
+                        context.HttpContext.Response.Redirect("/Error");
                 });
             }
-
-            // app.UseExceptionHandler("/Error");
-            
-            // app.UseStatusCodePages();
-
+            app.UseExceptionHandler("/Error");
             app.UseStaticFiles();
             app.UseMvc();
         }
